@@ -1865,7 +1865,7 @@ class EngineLayer extends NativeFieldWrapperClass2 {
   /// This class is created by the engine, and should not be instantiated
   /// or extended directly.
   @pragma('vm:entry-point')
-  EngineLayer._();
+  EngineLayer();
 }
 
 /// A complex, one-dimensional subset of a plane.
@@ -4099,7 +4099,7 @@ class Picture extends NativeFieldWrapperClass2 {
   ///
   /// To create a [Picture], use a [PictureRecorder].
   @pragma('vm:entry-point')
-  Picture._();
+  Picture();
 
   /// Creates an image from this picture.
   ///

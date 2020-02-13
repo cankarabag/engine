@@ -820,7 +820,7 @@ class SemanticsUpdate extends NativeFieldWrapperClass2 {
   ///
   /// To create a SemanticsUpdate object, use a [SemanticsUpdateBuilder].
   @pragma('vm:entry-point')
-  SemanticsUpdate._();
+  SemanticsUpdate();
 
   /// Releases the resources used by this semantics update.
   ///

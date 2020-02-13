@@ -17,7 +17,7 @@ class Scene extends NativeFieldWrapperClass2 {
   ///
   /// To create a Scene object, use a [SceneBuilder].
   @pragma('vm:entry-point')
-  Scene._();
+  Scene();
 
   /// Creates a raster image representation of the current state of the scene.
   /// This is a slow operation that is performed on a background thread.
